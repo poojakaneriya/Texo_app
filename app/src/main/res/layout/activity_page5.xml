@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2B3034"
+    tools:context=".Page5">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/car2"
+
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/group" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone number"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="+7"
+        android:textSize="30dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shap2"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="390dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#1E2327">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Or sign Up with:"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/apple"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/twitter"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginLeft="120dp"/>
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/google"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginLeft="210dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/facebook"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginLeft="290dp"/>
+
+            
+           <TextView
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:text="log in"
+               android:textColor="@color/white"
+               android:textSize="30dp"
+               android:layout_gravity="center|bottom"
+               android:gravity="center"
+               android:layout_marginBottom="40dp"
+               android:background="#FFC000"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>
