@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3034"
+    android:orientation="vertical"
+    tools:context=".Page15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/Back"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Support"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"/>
+
+    </LinearLayout>
+
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#1E2327">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yesterday"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/user2"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oliver Admas"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="80dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22:30"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="80dp"
+                android:textSize="20dp"
+                android:textColor="#545B63"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello,you forgot your bag and phone in my car,\nhow can I return them to you?🥶  "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="200dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/user3"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="280dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poter Doe"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="170dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22:35"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="210dp"
+                android:textSize="20dp"
+                android:textColor="#545B63"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi dude, I haven’t noticed! can you bring it\nto my house? Thanks!😁  "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="360dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/user2"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oliver Admas"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="80dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22:30"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="80dp"
+                android:textSize="20dp"
+                android:textColor="#545B63"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ok.....🤙🤙🤙🤙  "
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="20dp"/>
+
+        </androidx.cardview.widget.CardView>
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="410dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom|center"
+            app:cardBackgroundColor="#2B3034"
+            app:cardCornerRadius="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#2E353A"
+                app:cardElevation="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="#2B3034"
+                    app:cardElevation="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/plus2"
+                        android:layout_gravity="center"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter your message..."
+                    android:textSize="20dp"
+                    android:textColor="#545B63"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="20dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3034"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page14">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="305dp"
+        android:layout_height="440dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adam Winsoton"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="873 - WTF"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#545B63"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wow! A % star!\nWanna add tip for Adam?"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            app:cardBackgroundColor="#1E2327">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$5"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="#FFC000"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="60dp"
+            app:cardBackgroundColor="#1E2327">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="90dp"
+            app:cardBackgroundColor="#1E2327">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$1"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="DONE"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/shap"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May be next time "
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#545B63"/>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

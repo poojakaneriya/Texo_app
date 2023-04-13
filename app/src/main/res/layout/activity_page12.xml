@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3034"
+    android:orientation="vertical"
+    tools:context=".Page12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/Back"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/group"
+        android:layout_marginLeft="120dp"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#2E353A">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="144 Broughton Ave,Bloomfiled"
+            android:textColor="#545B63"
+            android:layout_marginLeft="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#2B3034"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="290dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/plus2"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#2E353A">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Destination"
+            android:textSize="20dp"
+            android:textColor="#FFC000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#2B3034"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="290dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/close"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shap1"
+        android:text="Harvard Unversity"
+        android:layout_marginTop="90dp"
+        android:textColor="#545B63"
+        android:gravity="center|left"
+        android:paddingLeft="30dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shap1"
+        android:text="Harvard Unversity,Back Door"
+        android:textColor="#545B63"
+        android:gravity="center|left"
+        android:paddingLeft="30dp"
+        android:textSize="18dp"/>
+
+
+    <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shap1"
+            android:text="Harvard Unversity,Libary"
+            android:textColor="#545B63"
+            android:gravity="center|left"
+            android:paddingLeft="30dp"
+            android:textSize="18dp"/>
+
+    <TextView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shap1"
+            android:text="Harvard Unversity,Main Entrance"
+            android:textColor="#545B63"
+            android:gravity="center|left"
+            android:paddingLeft="30dp"
+            android:textSize="18dp"/>
+
+
+
+</LinearLayout>

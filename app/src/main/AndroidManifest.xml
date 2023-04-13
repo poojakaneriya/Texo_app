@@ -12,6 +12,30 @@
         android:theme="@style/Theme.TexoApp"
         tools:targetApi="31">
         <activity
+            android:name=".Page19"
+            android:exported="false" />
+        <activity
+            android:name=".Page18"
+            android:exported="false" />
+        <activity
+            android:name=".Page17"
+            android:exported="false" />
+        <activity
+            android:name=".Page16"
+            android:exported="false" />
+        <activity
+            android:name=".Page15"
+            android:exported="false" />
+        <activity
+            android:name=".Page14"
+            android:exported="false" />
+        <activity
+            android:name=".Page13"
+            android:exported="false" />
+        <activity
+            android:name=".Page12"
+            android:exported="false" />
+        <activity
             android:name=".Page11"
             android:exported="false" />
         <activity

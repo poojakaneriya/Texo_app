@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B3034"
+    android:orientation="vertical"
+    tools:context=".Page18">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="750dp"
+        app:cardBackgroundColor="#2B3034"
+        app:cardElevation="40dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aaron Doe\nWest Hollywood"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/house"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="140dp"/>
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/wallet"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="200dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment History"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="140dp"/>
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/location"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="270dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ride History"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="140dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/settings"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="340dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="140dp"/>
+
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/Userlogo"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="410dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="140dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/microphone"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="480dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online Support"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="140dp"/>
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/forwerd"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="550dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="140dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
